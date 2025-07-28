@@ -1,0 +1,405 @@
+{
+  "title": "Operating Systems",
+  "outline": [
+    {
+      "level": "H1",
+      "text": "Operating Systems",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "1. Batch OS \u2013 A set of similar jobs are stored in the main memory for execution. A job gets",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "2. Multiprogramming OS \u2013 The main memory consists of jobs waiting for CPU time. The",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "3. Multitasking OS \u2013 Multitasking OS combines the benefits of Multiprogramming OS",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "4. Time Sharing OS \u2013 Time-sharing systems require interaction with the user to instruct",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "5. Real Time OS \u2013 Real-Time OS are usually built for dedicated systems to accomplish a",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "Apni Kaksha 1",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "1. Arrival Time \u2013 Time at which the process arrives in the ready queue.",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "2. Completion Time \u2013 Time at which process completes its execution.",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "3. Burst Time \u2013 Time required by a process for CPU execution.",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "4. Turn Around Time \u2013 Time Difference between completion time and arrival time.",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "5. Waiting Time (WT) \u2013 Time Difference between turn around time and burst time.",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "There are two types of threads:",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "Apni Kaksha 2",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "1. First Come First Serve (FCFS) : Simplest scheduling algorithm that",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "2. Shortest Job First (SJF): Processes which have the shortest burst time are",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "3. Shortest Remaining Time First (SRTF): It is a preemptive mode of SJF",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "4. Round Robin (RR) Scheduling: Each process is assigned a fixed time, in a",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "5. Priority Based scheduling (Non Preemptive): In this scheduling, processes",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "6. Highest Response Ratio Next (HRRN): In this scheduling, processes with",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "7. Multilevel Queue Scheduling (MLQ): According to the priority of the",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "8. Multilevel Feedback Queue (MLFQ) Scheduling: It allows the process to",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "Apni Kaksha 3",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "1. Critical Section \u2013 The portion of the code in the program where shared variables",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "2. Remainder Section \u2013 The remaining portion of the program excluding the Critical",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "3. Race around Condition \u2013 The final output of the code depends on the order in",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "A solution for the critical section problem must satisfy the following three conditions:",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "1. Mutual Exclusion \u2013 If a process Pi is executing in its critical section, then no other",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "2. Progress \u2013 If no process is executing in the critical section, then the decision of a",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "3. Bounded Waiting \u2013 There exists a bound on the number of times other processes",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "1. Semaphore :Semaphore is a protected variable or abstractdata type that is",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "There are two types of semaphores:",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "Apni Kaksha 4",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "A situation where a set of processes are blocked because each process is holding a",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "1. Mutual Exclusion \u2013 One or more than one resource is non-sharable (Only one",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "2. Hold and Wait \u2013 A process is holding at least one resource and waiting for",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "3. No Preemption \u2013 A resource cannot be taken from a process unless the process",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "4. Circular Wait \u2013 A set of processes are waiting for each other in circular form.",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "1. Deadlock prevention or avoidance : The idea is to not let the system into a",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "2. Deadlock detection and recovery : Let deadlock occur, then do preemption to",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "3. Ignore the problem all together : If deadlock is very rare, then let it happen and",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "Apni Kaksha 5",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "1. Fixed Partition \u2013 The memory is divided into fixed size partitions.",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "2. Variable Partition \u2013 The memory is divided into variable sized partitions.",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "1. First Fit \u2013 The arriving process is allotted the first hole of memory in which it fits",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "2. Best Fit \u2013 The arriving process is allotted the hole of memory in which it fits the best",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "3. Worst Fit \u2013 The arriving process is allotted the hole of memory in which it leaves the",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "Apni Kaksha 6",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "Note:",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "Variable partitioning saying that the entire process should be allocated in a",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "1. Paging \u2013 The physical memory is divided into equal sized frames. The main memory",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "2. Segmentation \u2013 Segmentation is implemented to give users a view of memory. The",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "1. First In First Out (FIFO) \u2013",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "Apni Kaksha 7",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "2. Optimal Page replacement \u2013",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "3. Least Recently Used (LRU) \u2013",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "Apni Kaksha 8",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "1. Seek Time: Seek time is the time taken to locate the disk arm to a specified track",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "2. Rotational Latency: Rotational Latency is the time taken by the desired sector of",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "3. Transfer Time: Transfer time is the time to transfer the data. It depends on the",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "4. Disk Access Time: Seek Time + Rotational Latency + Transfer Time",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "5. Disk Response Time: Response Time is the average of time spent by a request",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "1. FCFS: FCFS is the simplest of all the Disk Scheduling Algorithms. In FCFS, the",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "2. SSTF: In SSTF (Shortest Seek Time First), requests having the shortest seek time",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "3. SCAN: In SCAN algorithm the disk arm moves into a particular direction and",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "4. CSCAN: In SCAN algorithm, the disk arm again scans the path that has been",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "Apni Kaksha 9",
+      "page": 9
+    },
+    {
+      "level": "H1",
+      "text": "5. LOOK: It is similar to the SCAN disk scheduling algorithm except for the difference",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "Thus it prevents the extra delay which occurred due to unnecessary traversal to the",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "6. CLOOK: As LOOK is similar to SCAN algorithm, CLOOK is similar to CSCAN disk",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "Apni Kaksha 10",
+      "page": 10
+    },
+    {
+      "level": "H1",
+      "text": "Key Terms",
+      "page": 11
+    },
+    {
+      "level": "H1",
+      "text": "Apni Kaksha 11",
+      "page": 11
+    },
+    {
+      "level": "H1",
+      "text": "1. Internal fragmentation: It occurs when we deal with the systems that",
+      "page": 12
+    },
+    {
+      "level": "H1",
+      "text": "2. External fragmentation: It occurs when we deal with systems that have",
+      "page": 12
+    },
+    {
+      "level": "H1",
+      "text": "1. Enhance the responsiveness to the users.",
+      "page": 12
+    },
+    {
+      "level": "H1",
+      "text": "2. Resource sharing within the process.",
+      "page": 12
+    },
+    {
+      "level": "H1",
+      "text": "3. Economical",
+      "page": 12
+    },
+    {
+      "level": "H1",
+      "text": "4. Completely utilize the multiprocessing architecture.",
+      "page": 12
+    },
+    {
+      "level": "H1",
+      "text": "Apni Kaksha 12",
+      "page": 12
+    }
+  ]
+}

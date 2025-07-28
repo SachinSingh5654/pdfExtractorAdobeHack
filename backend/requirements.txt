@@ -1,0 +1,11 @@
+# pypdf2==3.0.1
+# pdfminer.six==20221105
+# pdfplumber==0.9.0
+# flask==2.3.2
+# python-dotenv==1.0.0
+
+pypdf2==3.0.1
+pdfminer.six==20221105
+pdfplumber==0.9.0
+flask==2.3.2
+python-dotenv==1.0.0
